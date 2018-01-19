@@ -146,6 +146,8 @@ in `config/deploy.rb`:
 require 'seed-fu/capistrano'
 
 # Trigger the task after update_code
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FEZO801%2Fseed-fu.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FEZO801%2Fseed-fu?ref=badge_shield)
+
 after 'deploy:update_code', 'db:seed_fu'
 ```
 
@@ -171,3 +173,7 @@ Contributors
 * Thanks to [Matthew Beale](https://github.com/mixonic) for his great work in adding the writer, making it faster and better.
 
 Copyright © 2008-2010 Michael Bleigh, released under the MIT license
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FEZO801%2Fseed-fu.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FEZO801%2Fseed-fu?ref=badge_large)
